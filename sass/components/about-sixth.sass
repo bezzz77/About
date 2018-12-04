@@ -7,11 +7,16 @@
     font-family: "Open Sans"
     color: #7b9bc1
     text-align: center
+    @include res('mob')
+      font-size: 23px
 .project__wrap-partners
     display: flex
     justify-content: space-between
     align-items: center
     padding-bottom: 50px
+    @include res('mob')
+      flex-direction: column
+
 .partners-img
   display: flex
   align-items: center
@@ -22,9 +27,13 @@
   @include res('tab')
     height: 120px
     width: 400px
+  @include res('mob')
+    width: 100%
 .partnerimg1
     @include res('tab')
       width: 70%
+    @include res('mob')
+      width: 90%
 .partnerimg2
     @include res('tab')
-      width: 45%
+      width:
