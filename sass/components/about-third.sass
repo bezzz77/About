@@ -28,8 +28,12 @@
   justify-content: space-between
 .block-section-txt-wrap
   width: 85%
+  @include res('tab')
+    width: 80%
   p
     font-size: 16px
     font-weight: 300
     font-family: "Open Sans"
     line-height: 1.5
+    @include res('tab')
+      font-size: 15px
