@@ -1,0 +1,131 @@
+.service
+  position: relative
+  background-image: url("../imgservice/serviceback.png")
+  background-repeat: no-repeat
+  background-size: cover
+  height: 820px
+  @include res('tab')
+    height: 100% !important
+    background-color: #3aaad0
+  @media only screen and (max-width: 375px)
+    height: 100%
+.serviceblock
+  max-width: 1170px
+  width: 100%
+  padding: 0 15px
+  margin: 0 auto
+  @media only screen and (max-width: 768px)
+    max-width: 768px
+  @media only screen and (max-width: 375px)
+    max-width: 375px
+.serviceblock__wrap
+  display: flex
+  padding-bottom: 50px
+  @media only screen and (max-width: 768px)
+    flex-direction: column
+.serviceblock__wrap-txt
+  padding-top: 75px
+  p
+    font-size: 16px
+    font-family: "Circe"
+    font-weight: 300
+    color: #fff
+    padding-bottom: 90px
+    line-height: 1.5
+    @media only screen and (max-width: 768px)
+      text-align: center
+  img
+    @media only screen and (max-width: 768px)
+      padding-left: 110px
+    @media only screen and (max-width: 375px)
+      padding-left: 0
+      width: 100%
+.service-title
+  font-size: 30px
+  font-family: "Circe"
+  font-weight: 1000
+  color: #fff
+  padding-bottom: 65px
+  @media only screen and (max-width: 768px)
+    text-align: center
+.function-section
+  display: grid
+  grid-template-columns: 200px 200px 200px
+  justify-content: space-around
+  align-items: center
+  @media only screen and (max-width: 768px)
+    display: grid
+    align-items: center
+    grid-template-columns: 155px 155px 155px
+    justify-content: space-around
+  @media only screen and (max-width: 375px)
+    display: grid
+    align-items: center
+    grid-template-columns: 155px 155px
+    justify-content: space-around
+.section__wrap
+  height: 400px
+// .sakura
+//   @media only screen and (max-width: 768px)
+//     width: 176px
+//   @media only screen and (max-width: 375px)
+//     width: 176px
+.img-wrap
+  position: relative
+  height: 270px
+.icnedit
+  position: absolute
+  bottom: 40px
+  z-index: -1
+  right: 100px
+.icnedit-1
+  position: absolute
+  bottom: 20px
+  z-index: -1
+  right: 100px
+.icnedit-2
+  position: absolute
+  bottom: 35px
+  z-index: -1
+  right: 95px
+.icnedit-3
+  position: absolute
+  bottom: 35px
+  z-index: -1
+  right: 130px
+.img-wrap
+  display: flex
+  justify-content: center
+.txt-wrap
+  display: flex
+  flex-direction: column
+  align-items: center
+  font-family: "Circe"
+  font-size: 24px
+  font-weight: 300
+  color: #fff
+  p
+    font-family: "Circe"
+    font-size: 24px
+    font-weight: bold
+    color: #fff
+    padding-top: 25px
+    @include res('mob')
+      font-size: 14px
+.txt-wrap-btn
+  height: 30px !important
+  width: 110px !important
+  border-radius: 25px !important
+  background-color: #e7949e !important
+  border: 0 !important
+  position: relative !important
+  display: flex !important
+  align-items: center !important
+  justify-content: center !important
+  font-size: 14px !important
+  font-weight: bold !important
+  color: #fff !important
+.button span.text
+  margin-right: 0
+.heightimgtxt
+  height: 48px

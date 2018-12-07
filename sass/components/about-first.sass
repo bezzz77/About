@@ -3,15 +3,24 @@
   background-image: url("../img/backabout.png")
   background-repeat: no-repeat
   background-size: cover
-  height: 470px
+  height: 400px
   @include res('tab')
     background-size: auto
   @include res('mob')
     position: relative
-    background-image: url("../img/backabout.jpg")
+    background-image: url("../img/back5.jpg")
     background-repeat: no-repeat
     background-size: cover
     height: 100vh
+    &::before
+      content: ""
+      background: #1f1f29
+      opacity: 0.8
+      top: 0
+      left: 0
+      bottom: 0
+      right: 0
+      position: absolute
 .catalog
   position: relative
   display: flex
@@ -24,7 +33,7 @@
     justify-content: center
 .catalog__wrap-text
   width: 100%
-  height: 470px
+  height: 400px
   display: flex
   align-items: center
   @include res('mob')
